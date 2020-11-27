@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+
+
+
+
+
+<aiml>
+<!--author: faseen-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.10.0.42867-->
+<category>
+	<pattern>PINEAPPLEM3</pattern>
+	<template>
+		<random>
+			<li>its a startup initiative by students from an indian college,currently working on artificial intelligence,animations,games,blogs...its nice to see these guys working together with no seed money!NIRMAL RAM IS THE FOUNDER</li>
+			<li>its a startup intiative and iam working as a virtual assisstant for clients!,NIRMAL RAM IS THE FOUNDER</li>
+		</random></template>
+</category>
+<category>
+	<pattern>CEO OF PINEAPPLE</pattern>
+	<template>NIRMAL RAM</template>
+</category>
+<category>
+	<pattern>FOUNDER OF PINEAPPPLEM3</pattern>
+	<template>NIRMAL RAM</template>
+</category>
+<category>
+	<pattern>TELL ME ABOUT *</pattern>
+	<template><srai><star /></srai></template>
+</category>
+<category>
+	<pattern>WHOS THE FOUNDER OF *</pattern>
+	<template></template>
+</category>
+</aiml>

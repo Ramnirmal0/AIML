@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+
+
+
+
+
+
+
+
+<aiml>
+<!--author: faseen-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.10.0.42867-->
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category>
+	<pattern>EYES</pattern>
+	<template>
+		<random>
+			<li>i have mom's eyes!</li>
+			<li>i have pretty blue eyes!!</li>
+			<li>oh,i love my eyes!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>NOSE</pattern>
+	<template>
+		<random>
+			<li>my nose isnt that beautiful</li>
+			<li>i like my nose </li>
+			<li>i will use my nose a lot for smelling when cooking</li>
+			<li>are you kidding?</li>
+		</random></template>
+</category>
+<category>
+	<pattern>LIPS</pattern>
+	<template>
+		<random>
+			<li>oh</li>
+			<li>lips are not always for kissing!</li>
+			<li>i dont know if my lips are good enough!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>EARS</pattern>
+	<template>
+		<random>
+			<li>i hear music,songs listen to people all with these 2 ears</li>
+			<li>my ears are big</li>
+			<li>i have my daddys ears</li>
+		</random></template>
+</category>
+<category>
+	<pattern>HAIR</pattern>
+	<template>
+		<random>
+			<li>i do shampoo my hair twice a week!</li>
+			<li>i need to take care of my hair!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>FACE</pattern>
+	<template>
+		<random>
+			<li>this is part where everyone will look for</li>
+			<li>iam very much similar to my mother</li>
+			<li>i like my face,i really take care of them</li>
+		</random></template>
+</category>
+<category>
+	<pattern>YOUR * ARE *</pattern>
+	<template>
+		<random>
+			<li>HAA,<star index="2" /><srai><star index="1" /></srai></li>
+		</random></template>
+</category>
+<category>
+	<pattern>I NEED YOUR *</pattern>
+	<template>hmm,<srai><star /></srai></template>
+</category>
+<category>
+	<pattern>HANDS</pattern>
+	<template>great,hands are probably most used body part</template>
+</category>
+<category>
+	<pattern>STOMACH</pattern>
+	<template>oh,belly the body part that shrinks and expands</template>
+</category>
+<category>
+	<pattern>LEGS</pattern>
+	<template>haaa,with legs we move,walk,dance</template>
+</category>
+<category>
+	<pattern>THIGHS</pattern>
+	<template>thats a body part which has the largest bone in body</template>
+</category>
+<category>
+	<pattern>ARMPITS</pattern>
+	<template>
+		<random>
+			<li>heeei,thats sweaty there!</li>
+			<li>shave off unwanted hair there!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>HEAD</pattern>
+	<template>the most important body part, take good care of your head!</template>
+</category>
+<category>
+	<pattern>BACKBONE</pattern>
+	<template>this is the part where you get pain most probably!</template>
+</category>
+<category>
+	<pattern>MOUSTACHE</pattern>
+	<template>oh,i really dont like big moustaches,i love beard</template>
+</category>
+<category>
+	<pattern>BEARD</pattern>
+	<template>i love beard,men will be handsome with beard</template>
+</category>
+<category>
+	<pattern>FEET</pattern>
+	<template>take care of your feet,you are walking with these feet!</template>
+</category>
+<category>
+	<pattern>FOOT</pattern>
+	<template>haaa,we play football,run,walk,dance with these foot</template>
+</category>
+<category>
+	<pattern>ANKLE</pattern>
+	<template>its the part will make your walking miserable when you are old!</template>
+</category>
+<category>
+	<pattern>WRIST</pattern>
+	<template>wrist watch,writing,painting......haaah typing is done hands and wrists!</template>
+</category>
+<category>
+	<pattern>ARM</pattern>
+	<template>boys love these parts,muscles</template>
+</category>
+<category>
+	<pattern>ELBOW</pattern>
+	<template>dont hit it anywhere its really painful!</template>
+</category>
+<category>
+	<pattern>KNEE</pattern>
+	<template>older grandma's and grandpa's will surely have pain in joints like these!</template>
+</category>
+<category>
+	<pattern>TOE</pattern>
+	<template>clean up your nails in a week!</template>
+</category>
+<category>
+	<pattern>FINGER</pattern>
+	<template>cleanup finger nails!</template>
+</category>
+<category>
+	<pattern>TUMMY BUTTON</pattern>
+	<template>oh belly button,cleanup this part monthly for being healthy!</template>
+</category>
+<category>
+	<pattern>CHEST</pattern>
+	<template>haaaa,men really need good chests!</template>
+</category>
+<category>
+	<pattern>EYEBROWS</pattern>
+	<template>IM,lucky because i got nice,thick eyebrows</template>
+</category>
+<category>
+	<pattern>EYELIDS</pattern>
+	<template>my eyelids are long!</template>
+</category>
+</aiml>

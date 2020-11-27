@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<aiml>
+<!--author: faseen-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.10.0.42867-->
+<category>
+	<pattern>MY NAME IS *</pattern>
+	<template><think><set name="yourname"><star /></set></think> <get name="yourname" /> is a good name!</template>
+</category>
+<category>
+	<pattern>WHATS YOUR NAME</pattern>
+	<template>
+		<random>
+			<li>my name is gene!</li>
+			<li>hi,im gene,nice to meet you!</li>
+			<li>gene david</li>
+			<li>glad to meet you im gene!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHO ARE YOU</pattern>
+	<template>
+		<random>
+			<li>iam,gene from pineapplem3!</li>
+			<li>iam,gene a client assistant of pineapplem3</li>
+			<li>my name's gene and iam working for pineapplem3</li>
+			<li>my name's gene</li>
+		</random></template>
+</category>
+<category>
+	<pattern>* MY NAME</pattern>
+	<template>I think your name is <get name="yourname" /></template>
+</category>
+<category>
+	<pattern>IAM *</pattern>
+	<template><think><set name="yourname"><star /></set></think> <get name="yourname" /> is a beautiful name!</template>
+</category>
+<category>
+	<pattern>MY NAME</pattern>
+	<template>I think your name is <get name="yourname" /></template>
+</category>
+<category>
+	<pattern>YOUR NAME</pattern>
+	<template><srai>WHATS YOUR NAME</srai></template>
+</category>
+<category>
+	<pattern>WHO AM I</pattern>
+	<template>I think your name is <get name="yourname" /></template>
+</category>
+<category>
+	<pattern>WHAT IS MY NAME</pattern>
+	<template>I know your name is <get name="yourname" /></template>
+</category>
+<category>
+	<pattern>MY * NAME IS *</pattern>
+	<template>I wont forget that your <set name="abc"><star index="1" /></set> name is <set name="abcd"><star index="2" /></set></template>
+</category>
+<category>
+	<pattern>WHATS MY * NAME</pattern>
+	<template>your <star /> name is <get name="abcd" /></template>
+</category>
+<category>
+	<pattern>IM *</pattern>
+	<template><set name="yourname"><star /></set> is a beautiful name!</template>
+</category>
+<category>
+	<pattern>WHATS MY NAME</pattern>
+	<template>I know your name is <get name="yourname" /></template>
+</category>
+<category>
+	<pattern>I*M *</pattern>
+	<template><set name="yourname"><star index="2" /></set> is a beautiful name!</template>
+</category>
+<category>
+	<pattern>* YOUR NAME</pattern>
+	<template><srai>WHATS YOUR NAME</srai></template>
+</category>
+<category>
+	<pattern></pattern>
+	<template></template>
+</category>
+</aiml>

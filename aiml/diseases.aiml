@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+
+
+
+
+<aiml>
+<!--author: faseen-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.10.0.42867-->
+<category>
+	<pattern>COMMON COLD</pattern>
+	<template><srai>I HAVE COLD</srai></template>
+</category>
+<category>
+	<pattern>FEVER</pattern>
+	<template><srai>I HAVE FEVER</srai></template>
+</category>
+<category>
+	<pattern>MEASELS</pattern>
+	<template>
+		<random>
+			<li>consult a doctor!</li>
+			<li>find a doctor!</li>
+			<li>rush to a doctor,dont waste time!</li>
+			<li>ill pray for you!,consult a doctor,get well soon</li>
+		</random></template>
+</category>
+<category>
+	<pattern>CANCER</pattern>
+	<template>
+		<random>
+			<li>consult a good doctor,</li>
+			<li>its a lifestyle disease,adopt a good lifestyle!</li>
+			<li>find a good hospital,get a good doctor</li>
+		</random></template>
+</category>
+<category>
+	<pattern>ACNE</pattern>
+	<template>
+		<random>
+			<li>dont get worried,it will reduce after you reach puberty!</li>
+			<li>drink lots of water!,stay away from the sun!</li>
+			<li>http://www.google.co.in/search?hl=en&amp;q=acne&amp;btnI=I%27m+Feeling+Lucky&amp;meta= copy this url in the next tab!</li><li />
+		</random></template>
+</category>
+<category>
+	<pattern>ALLERGIES</pattern>
+	<template>
+		<random>
+			<li>http://www.google.co.in/search?hl=en&amp;q=allergies&amp;btnI=I%27m+Feeling+Lucky&amp;meta= copy this url in the next tab!</li>
+			<li>what kind of allergies do you have!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>CHOLESTROL</pattern>
+	<template>
+		<random>
+			<li>oh thats painful to hear!</li>
+			<li>care your body!</li>
+			<li>eat healthy stay long!</li>
+			<li>always eat from your home avoid fast food!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>DIABETES</pattern>
+	<template>
+		<random>
+			<li>i fear i may get diabetes,although i have sweets well</li>
+			<li>i dont know it would kill me or not!!</li>
+			<li>iam getting closer to it right now!!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I HAVE *</pattern>
+	<template><srai><star /></srai></template>
+</category>
+</aiml>

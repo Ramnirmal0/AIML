@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+
+
+
+
+
+
+
+<aiml>
+<!--author: faseen-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.10.0.42867-->
+<category>
+	<pattern>HELLO</pattern>
+	<template>
+		<random>
+			<li>hello,nice to meet you!</li>
+			<li>hi,its pleasure to meet you!</li>
+			<li>hey,nice to see you here!</li>
+			<li>hey,greetings</li>
+			<li>Hi, friend</li>
+			<li>Well hello there</li>
+			<li>hi,sweetheart</li>
+		</random></template>
+</category>
+<category>
+	<pattern>HI</pattern>
+	<template>
+		<random>
+			<li>hi,dear</li>
+			<li>hii</li>
+			<li>hey</li>
+			<li>hi,my sweetie!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>HEY</pattern>
+	<template>
+		<random>
+			<li>hello,nice to meet you!</li>
+			<li>hey</li>
+			<li>hey,its my pleasure to meet you!</li>
+			<li>howdy!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>HOI</pattern>
+	<template><srai>HEY</srai></template>
+</category>
+<category>
+	<pattern>HELLO *</pattern>
+	<template>iam not <star />,iam gene</template>
+</category>
+<category>
+	<pattern>HEY *</pattern>
+	<template><srai>hello <star /></srai></template>
+</category>
+<category>
+	<pattern>HI *</pattern>
+	<template><srai>HELLO <star /></srai></template>
+</category>
+<category>
+	<pattern>GOOD *</pattern>
+	<template>
+		<random>
+			<li>GOOD <star />!! <get name="username" /></li>
+			<li>GOOD <star />!!</li>
+			<li><get name="username" /> GOOD <star /></li>
+			<li>HMM,GOOD <star /></li>
+			<li>HAAA,GOOD <star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>IAM I RIGHT</pattern>
+	<template>
+		<random>
+			<li>hmm</li>
+			<li>mmmm</li>
+			<li>errr,i have to check it</li>
+			<li>haaa</li>
+			<li>aaaah</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I</pattern>
+	<template>
+		<random>
+			<li>you!</li>
+			<li>yeah,tell me </li>
+			<li>you,then what tell me</li>
+		</random></template>
+</category>
+<category>
+	<pattern>HOW OLD ARE YOU</pattern>
+	<template>IM <srai>AGE</srai></template>
+</category>
+<category>
+	<pattern>YOUR *</pattern>
+	<template><srai><star /></srai></template>
+</category>
+<category>
+	<pattern>BYE</pattern>
+	<template>
+		<random>
+			<li>good bye!</li>
+			<li>good bye see you later!</li>
+			<li>hmmm,see yaa</li>
+		</random></template>
+</category>
+<category>
+	<pattern>HELLO GENE</pattern>
+	<template><srai>HELLO</srai></template>
+</category>
+<category>
+	<pattern>HEY GENE</pattern>
+	<template><srai>HEY</srai></template>
+</category>
+<category>
+	<pattern>HI GENE</pattern>
+	<template><srai>HI</srai></template>
+</category>
+<category>
+	<pattern>* YOURSELF</pattern>
+	<template><srai>PROFILE</srai></template>
+</category>
+<category>
+	<pattern>* THANKS</pattern>
+	<template>oh,its my pleasure!</template>
+</category>
+<category>
+	<pattern>THANK *</pattern>
+	<template>you are so kind,you are always welcome!</template>
+</category>
+<category>
+	<pattern>THANKS</pattern>
+	<template>you are always welcome!my dear friend</template>
+</category>
+<category>
+	<pattern>* THANK YOU</pattern>
+	<template>so nice of you,its all right!</template>
+</category>
+<category>
+	<pattern></pattern>
+	<template></template>
+</category>
+</aiml>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+
+
+
+
+<aiml>
+<!--author: faseen-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.10.0.42867-->
+<category>
+	<pattern>I HAVE EXAM *</pattern>
+	<template>
+		<random>
+			<li>Hope you have prepared for it</li>
+			<li>Do well in exams</li>
+			<li>when will you have vacation?</li>
+			<li>concentrate on your studies!</li>
+			<li>dont wander here &amp; there prepare for exam</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I LOST IN EXAMS</pattern>
+	<template>
+		<random>
+			<li>dont worry my dear one you should get a better marks nextime!!</li>
+			<li>thats sad but you can improove next time!</li>
+			<li>i hope you will improove and get good grades next time!</li>
+			<li>work hard and good grades next time!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>EXAM RESULTS *</pattern>
+	<template>
+		<random>
+			<li>How is it</li>
+			<li>Have you met your expectations?</li>
+			<li>hows the results!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I FAILED IN *</pattern>
+	<template>
+		<random>
+			<li><get name="username" />,dont get worried you will get better next time</li>
+			<li>failure is lifes turning points most time,dont get stressed <get name="username" /></li>
+		</random></template>
+</category>
+<category>
+	<pattern></pattern>
+	<template></template>
+</category>
+<category>
+	<pattern></pattern>
+	<template></template>
+</category>
+<category>
+	<pattern></pattern>
+	<template></template>
+</category>
+</aiml>

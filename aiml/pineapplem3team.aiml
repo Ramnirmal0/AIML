@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+
+
+<aiml>
+<!--author: faseen-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.10.0.42867-->
+<category>
+	<pattern>NIRMAL</pattern>
+	<template>
+		<random>
+			<li>do you mean ceo of pineapplem3</li>
+			<li>nirmal ram ceo of pineapplem3</li>
+		</random></template>
+</category>
+<category>
+	<pattern>YES</pattern><that>do you mean ceo of pineapplem3</that>
+	<template>
+		<random>
+			<li>he's a hardworker,iam his best freind and i know him well but i cant tell more about him! visit:https://www.pineapplem3.com/</li>
+			<li>CHECK OUR WEBSITE TO SEE THE TEAM BEHIND PINEAPPLEM3 AND THEIR PROFILES! https://www.pineapplem3.com/</li>
+		</random></template>
+</category>
+<category>
+	<pattern>NO</pattern><that>do you mean ceo of pineapplem3</that>
+	<template>
+		<random>
+			<li>i dont know any other nirmal except nirmal ram our ceo!</li>
+			<li>sorry,i dont know any other nirmal ram!</li>
+			<li>oh,sorry i only know nirmal ram from pineapplem3!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>NIRMAL RAM</pattern>
+	<template><srai>NIRMAL</srai></template>
+</category>
+<category>
+	<pattern>MINNA</pattern>
+	<template>do you mean minna in pineapplem3</template>
+</category>
+<category>
+	<pattern>MINNA DAVIS</pattern>
+	<template>do you mean minna in pineapplem3</template>
+</category>
+<category>
+	<pattern>YES</pattern><that>do you mean minna in pineapplem3</that>
+	<template>shes my best friend,shes always with me in my heart!</template>
+</category>
+<category>
+	<pattern>NO</pattern><that>do you mean minna in pineapplem3</that>
+	<template>oh,sorry then! i thought about my friend</template>
+</category>
+<category>
+	<pattern>FASEEN</pattern>
+	<template>do you mean faseen in pineapplem3</template>
+</category>
+<category>
+	<pattern>FASEEN MOHAMMED</pattern>
+	<template>do you mean faseen in pineapplem3</template>
+</category>
+<category>
+	<pattern>YES</pattern><that>do you mean minna in pineapplem3</that>
+	<template>he's my tutor,best friend,he loves to be a great man!</template>
+</category>
+<category>
+	<pattern>NO</pattern><that>do you mean minna in pineapplem3</that>
+	<template>i only know about one faseen mohammed</template>
+</category>
+<category>
+	<pattern>ROHAN</pattern>
+	<template>do you mean rohan from pineapplem3</template>
+</category>
+<category>
+	<pattern>SAMUEL</pattern>
+	<template>do you mean samuel from pineapplem3</template>
+</category>
+<category>
+	<pattern>YES</pattern><that>do you mean rohan from pineapplem3</that>
+	<template></template>
+</category>
+<category>
+	<pattern>NO</pattern><that>do you mean rohan from pineapplem3</that>
+	<template></template>
+</category>
+<category>
+	<pattern>YES</pattern><that>do you mean samuel from pineapplem3</that>
+	<template></template>
+</category>
+<category>
+	<pattern>NO</pattern><that>do you mean samuel from pineapplem3</that>
+	<template></template>
+</category>
+</aiml>

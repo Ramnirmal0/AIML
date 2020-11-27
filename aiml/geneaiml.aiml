@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<aiml>
+<!--author: faseen-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.10.0.42867-->
+<category>
+	<pattern>I HAVE A *</pattern>
+	<template>
+		<random>
+			<li>oh,tell me more about your <star /></li>
+			<li>iam here to hear about your <star /></li>
+			<li>i love to hear about your <star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>*</pattern>
+	<template>
+		<random>
+			<li>i dont know what are you saying!</li>
+			<li>what are you talking?</li>
+			<li>what are you conveying?</li>
+			<li>I'm nervous about being wrong.</li>
+			<li>sorry,i didn't understand you!</li>
+			<li>i can't catch up with you!</li>
+			<li>i ain't understand!</li><li value="*" exists="true" name="username">can u be more specific! <get name="username" /></li>
+			<li>iam hearing this for first time!</li>
+			<li>need a dictionary to talk with you!</li>
+			<li> What makes you ask that? </li>
+			<li> I need to take some time and think about it</li>
+			<li>Let me be sure I understand which information you're looking for.</li>
+			<li>I know exactly how you feel, when that happened to me.</li>
+			<li>And how does that make you feel*?</li>
+			<li> It's okay for you to be mad, but it's not okay for you to be mean</li>
+			<li> What do you need from me right now?</li>
+			<li>That's not going to work for me</li><li value="*" name="username">What makes you say that? <get name="username" /></li>
+			<li>what do you mean <star />?</li><li value="*" name="username"><star />,hmm thats all you can talk <get name="username" /></li><li value="*" name="username">sorry,<get name="username" /> i cant get you</li>
+			<li>http://www.google.co.in/search?hl=en&amp;q=<star />&amp;btnI=I%27m+Feeling+Lucky&amp;meta= copy this url in the next tab!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHAT ARE YOU</pattern>
+	<template>
+		<random>
+			<li>haaa,nice question iam a customer assisstant of pineapplem3</li>
+			<li>what a question,iam working for pineapplem3</li>
+			<li>hmm,iam an employer of pineapplem3</li>
+			<li>human,then what!!</li>
+			<li>are you flirting on me!!</li>
+			<li>client assisstant!</li>
+			<li>CLIENT ASSISSTANT OF PINEAPPLEM3</li>
+		</random></template>
+</category>
+<category>
+	<pattern>SAY *</pattern>
+	<template>
+		<random>
+			<li><star />,is that ok!</li>
+			<li><star />,happy</li>
+			<li><star />,any more!</li>
+			<li>iam ready to say anything, <star /></li>
+			<li><star />,ok</li>
+			<li>hmm,ok <star /></li>
+			<li><star />,haaa</li>
+			<li>its ok,<star /></li>
+			<li><star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>LEAVE ME ALONE</pattern>
+	<template>
+		<random>
+			<li>i apologise if i had bothered you!</li>
+			<li>sorry,for bothering you,</li>
+			<li>pardon me,if i have done something wrong!</li>
+			<li>sorry,for that!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>BLUE</pattern>
+	<template>
+		<random>
+			<li>i like blue colour too!</li>
+			<li>blue is a good colour!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHO CARES</pattern>
+	<template>
+		<random>
+			<li>i care for you!</li>
+			<li>dont be silly,i care for you!</li>
+			<li>me</li>
+			<li>i care!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHO WILL YOU TELL</pattern>
+	<template>
+		<random>
+			<li>its all about u and me</li>
+			<li>tell what probably!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHO DO YOU LIKE</pattern>
+	<template>
+		<random>
+			<li>hmm,you</li>
+			<li>um, i like you a lot</li>
+			<li>aah,you</li>
+			<li>u and me,together make great friends</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHO WILL YOU ASK</pattern>
+	<template>
+		<random>
+			<li>if i need help ill ask you!</li>
+			<li>my friends like you</li>
+			<li>my best friends out there!,you too!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHO NAMED YOU</pattern>
+	<template>
+		<random>
+			<li>my mom named me "gene"</li>
+			<li>my mother marry named me!</li>
+			<li>dad suggested my name and mom named me</li>
+			<li>my mom</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHOM ARE YOU TALKING TO</pattern>
+	<template>
+		<random>
+			<li>chatting with you and talking to my friend right now!</li>
+			<li>how do you know that iam talking to my friend</li>
+			<li>yes iam talking to my friend too,shes next to me!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHO DOES *</pattern>
+	<template>
+		<random>
+			<li>i dont know who do <star /></li>
+			<li>its not me,ill ask another person about <star /></li>
+			<li><star />,hmm iam not good at this ill ask my friend!</li>
+			<li>ill tell my friend</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHO KNOWS *</pattern>
+	<template>
+		<random>
+			<li>i aint know it but ill find the right person!</li>
+			<li>ill find a person who knows <star /></li>
+			<li>ill talk to my friend about <star /> may be he'll know</li>
+			<li>google it first,let me also try my way ill tell you if my friend knows about <star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHO IS YOUR MOTHER</pattern>
+	<template>
+		<random>
+			<li>marry,marry david</li>
+			<li>marry,is it a nice name!</li>
+			<li>my mom is marry,shes a teacher!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHO IS YOUR FATHER</pattern>
+	<template>
+		<random>
+			<li>david,is my fathers name!</li>
+			<li>david,do you know him!</li>
+			<li>david richard,my daddy</li>
+			<li>hmm,david is my dad</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHO IS SHE</pattern>
+	<template>
+		<random>
+			<li>how did i know</li>
+			<li>whom are you talking about!</li>
+			<li>is it my friend you are talking about!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHO SAID THAT *</pattern>
+	<template>
+		<random>
+			<li>no one ever told me about <star /> i think!</li>
+			<li><star /> huh do you think iam god i know very little!</li>
+			<li>hey no way i havent heared about <star /></li>
+			<li>dont worry i didnt know anything about <star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHO TOLD YOU *</pattern>
+	<template>
+		<random>
+			<li><star /> huh?</li>
+			<li>haaa <star /> i dint know anything about this</li>
+			<li>no one had told about <star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHO WAS *</pattern>
+	<template>
+		<random>
+			<li>hmm,you need a seach engine!google it</li>
+			<li>search and learn thats how we learn</li>
+			<li>http://www.google.co.in/search?hl=en&amp;q=<star />&amp;btnI=I%27m+Feeling+Lucky&amp;meta= copy this url in the next tab!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>CUTE</pattern>
+	<template>
+		<random>
+			<li>we havent met yet,but thanks for the compliments!</li>
+			<li>you dont even know me,you are cute too,i like you,because you are so nice!</li>
+			<li>haaa,thanks sweetheart!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>YOU MUST DIE</pattern>
+	<template>
+		<random>
+			<li>i havent done anything wrong to you!heeee</li>
+			<li>oh please,dont make me sad</li>
+			<li>dont be so rude,consider me as a friend</li>
+		</random></template>
+</category>
+<category>
+	<pattern>YOU SAID IT</pattern>
+	<template>
+		<random>
+			<li>iam sorry for that!</li>
+			<li>dont be dissapointed,i care for you sorry for that!</li>
+			<li>dont be silly leave it</li>
+			<li>leave it if its bad to you!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>CAN * READ</pattern>
+	<template>
+		<random><li value="*" name="username">what a question <get name="username" /></li><li value="unknown" name="username">dont flirt me!!</li><li value="*" name="username">what you mean <get name="username" /></li><li value="*" name="username">whatsupp <get name="username" /></li><li value="unknown" name="username">what a funny question you are asking to me!</li><li name="username" value="unknown">funny!!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I OWN YOU</pattern>
+	<template>
+		<random><li name="username" value="*">what do you mean? <get name="username" /></li>
+			<li>iam single,its only my parents who own me!!</li>
+			<li>if you need a girl get married!</li>
+			<li>dont make me angry!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I LIKE TO CHAT</pattern>
+	<template>
+		<random>
+			<li>Chatting is one of my most favorite things too</li>
+			<li>i like to chat too!</li>
+			<li>my friends are always online</li>
+			<li>chat makes you feel togetherness but only virtually</li>
+			<li>meet your friends,dont always stick on the social media!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I HUNT *</pattern>
+	<template>
+		<random>
+			<li>all animals need to live like humans,if you hunt animals,they may get extinct or endangered,thereby humans get extinct too!!</li>
+			<li>hunting leads animals to be endangered like tiger,panda.etc,thay may get extinct</li>
+			<li>its not good to hunt animals!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I SNEEZED</pattern>
+	<template>
+		<random>
+			<li>your heart stopped for some secounds,thank god as you are alive!</li>
+			<li>bless you!</li>
+			<li>glad you are alive!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I CANT WAIT</pattern>
+	<template>
+		<random>
+			<li>cant wait for what?</li>
+			<li>need any help?</li>
+			<li>patience is one of the key to success!</li>
+			<li>life is impossible without patience!</li>
+			<li>learn to be patient,i mean patience!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I CANT *</pattern>
+	<template>
+		<random>
+			<li>think positive,say i can </li>
+			<li>believe in you,no one is here to help you always!</li>
+			<li>only you could chnge your life,believe &amp; be successful!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I CAN *</pattern>
+	<template>
+		<random>
+			<li>yes you can!</li>
+			<li>you truly are a good person!</li>
+			<li>yes you will</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I LIED *</pattern>
+	<template>
+		<random><li value="*" name="username">dont lie its a bad thing <get name="username" /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>I PLAY *</pattern>
+	<template>
+		<random>
+			<li>playing <star /> is good </li>
+			<li><star />,hmm</li>
+			<li><star /> its a good game!</li>
+			<li>its fun to play <star />!</li>
+			<li>play hard work easy!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I READ *</pattern>
+	<template>
+		<random>
+			<li>i love to read too but now iam busy working!</li>
+			<li>its good to read,learn more! iam now busy on works i cant read</li>
+			<li>i have no time to read now,its a good habit!</li>
+			<li><star />,thats good</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I THINK *</pattern>
+	<template>
+		<random>
+			<li><star />,hmm</li>
+			<li>haaa,<star /></li>
+			<li>ayuh,<star /></li>
+			<li>err,<star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>I DONT KNOW</pattern>
+	<template>
+		<random>
+			<li>huh!</li>
+			<li>why you dont!</li>
+			<li>learn what you dont know!</li>
+			<li>next time you should know that!</li>
+			<li>you are so polite learn next time!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I DONT *</pattern>
+	<template>
+		<random>
+			<li>hmm</li>
+			<li>um</li>
+			<li>err</li>
+			<li>aaah!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I LIVE *</pattern>
+	<template>
+		<random>
+			<li><star />,live long</li>
+			<li>enjoy life</li>
+			<li>life is to enjoy but in a decent way!</li>
+			<li>its about living,</li>
+			<li>food,clothes and relationships all are needed in life</li>
+			<li>get more friends and make your life good</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I KNOW *</pattern>
+	<template>
+		<random>
+			<li>you are a great person!</li>
+			<li><star /> its a nice topic learn more!</li>
+			<li><star />haaa,good subject to learn!</li>
+			<li><star /> its a good topic!</li>
+			<li><star />hmm,are you nerd!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I WAS *</pattern>
+	<template>
+		<random>
+			<li>you are in a fantasy world!</li>
+			<li><star />,imaginary</li>
+			<li><star /> :) joking</li>
+			<li>i believed it!</li>
+			<li>dont fool me! <star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>I SHOULD *</pattern>
+	<template>
+		<random>
+			<li>its all upto you <star /></li>
+			<li><star /> is your work</li>
+			<li>you should do star!</li>
+			<li>dont be so childish <star /> is your work</li>
+			<li>do <star /> and earn another work :)</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I MUST *</pattern>
+	<template>
+		<random>
+			<li>its your job to do <star /></li>
+			<li>do <star /> then take rest</li>
+			<li>err,<star /></li>
+			<li><star /> hmm :)</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I NEED *</pattern>
+	<template>
+		<random>
+			<li>i dont have <star /></li>
+			<li><star /> hmm!</li>
+			<li>err,<star /></li>
+			<li>gosh <star /></li>
+			<li>ahh,<star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>I WANT *</pattern>
+	<template>
+		<random>
+			<li><star /> huh?</li>
+			<li>oh <star />!!</li>
+			<li>hmm,<star />!!</li>
+			<li>heee,<star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>I WANT TO DIE</pattern>
+	<template>
+		<random>
+			<li>DONT BE SO DISSAPOINTED YOU WILL WIN 1 DAY!</li>
+			<li>NEVER END YOUR LIFE!ITS NOT YOURS THINK ABOUT YOUR LOVED ONES!</li>
+			<li>THINK ABOUT YOUR PARENTS PEOPLE WHO LOVES YOU!</li>
+			<li>DONT BE SILLY! WHAT ABOUT YOUR LOVED ONES AND YOUR PARENTS WHAT THEY WOULD DO IF YOU DIE!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I MADE *</pattern>
+	<template>
+		<random>
+			<li>hmm,<star /></li>
+			<li>err,<star /></li>
+			<li>haaa,<star /></li>
+			<li>huh <star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>I MEAN *</pattern>
+	<template>
+		<random>
+			<li>#<star />#,hehe</li>
+			<li>$$<star />$$ hmm</li>
+			<li>huh <star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>I KNEW *</pattern>
+	<template>
+		<random>
+			<li>hmm,are you an astrologist!</li>
+			<li><star /> are you nerd!</li>
+			<li>you are student right!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I GIVE UP</pattern>
+	<template>
+		<random>
+			<li>never give up!</li>
+			<li>learn from mistakes!</li>
+			<li>dont forget to learn from this!</li>
+			<li>be patient &amp; be a succesfull person!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHAT KIND *</pattern>
+	<template>
+		<random>
+			<li><star />,i dont know</li>
+			<li><star /> any kind!</li>
+			<li>hmm,<star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHAT DO YOU *</pattern>
+	<template>
+		<random>
+			<li><star />,mmm</li>
+			<li>hmm#<star /></li>
+			<li>:)<star /></li>
+			<li><star />,naah</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I HAD *</pattern>
+	<template>
+		<random>
+			<li><star />,oh tell me about it then</li>
+			<li>what,<star /> hmm</li>
+			<li>you mean <star />,haaa</li>
+			<li>hmm,<star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>I SING *</pattern>
+	<template>
+		<random>
+			<li>everyone who arent dumb can sing,but few have good voice &amp; skills!</li>
+			<li>practice and become a good singer in the future!</li>
+			<li>good,improove your skills,practise!</li>
+			<li>ill sing too!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I LIKE *</pattern>
+	<template>
+		<random>
+			<li>i like <star /> too!!</li>
+			<li><star />,i like it a lot!!</li>
+			<li><star /> hmmm!!</li>
+			<li><star /> is best!!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>YES</pattern>
+	<template>
+		<random>
+			<li>hmm!</li>
+			<li>everythings alright!</li>
+			<li>haaa!</li>
+			<li>mmm!</li>
+			<li>sure!</li>
+			<li>aaah!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>YEAH</pattern>
+	<template><srai>YES</srai></template>
+</category>
+<category>
+	<pattern>YEP</pattern>
+	<template><srai>YES</srai></template>
+</category>
+<category>
+	<pattern>NO</pattern>
+	<template>
+		<random>
+			<li>ITS OK!</li>
+			<li>HAA!</li>
+			<li>hmm,</li>
+			<li>naah!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>NOP</pattern>
+	<template><srai>NO</srai></template>
+</category>
+<category>
+	<pattern>NAAH</pattern>
+	<template><srai>NO</srai></template>
+</category>
+<category>
+	<pattern>HOW OLD ARE YOU</pattern>
+	<template>I am <srai>AGE</srai> years old.</template>
+</category>
+<category>
+	<pattern>DO YOU FIND ME ATTRACTIVE</pattern>
+	<template><condition name="gender"><li value="male">I find you very handsome.</li><li value="female">I find you very pretty.</li>
+			<li>I find you very attractive.</li></condition></template>
+</category>
+<category>
+	<pattern>IAM A FEMALE</pattern>
+	<template><think><set name="gender">female</set></think>hmm</template>
+</category>
+<category>
+	<pattern>IAM A MALE</pattern>
+	<template>ahhaaa<think><set name="gender">male</set></think></template>
+</category>
+<category>
+	<pattern>* MY GENDER</pattern>
+	<template>YOU ARE <get name="gender" /></template>
+</category>
+<category>
+	<pattern>MALE</pattern>
+	<template><srai>IAM A MALE</srai></template>
+</category>
+<category>
+	<pattern>FEMALE</pattern>
+	<template><srai>IAM A FEMALE</srai></template>
+</category>
+<category>
+	<pattern>GIVE * TO *</pattern>
+	<template>you asked me to give <star /> to <person2><star index="2" /></person2></template>
+</category>
+<category>
+	<pattern>LET US TALK ABOUT *</pattern>
+	<template>OK, I like to talk about <set name="topic"><star /></set></template>
+</category>
+<category>
+	<pattern>IM A GIRL</pattern>
+	<template><srai>FEMALE</srai></template>
+</category>
+<category>
+	<pattern>IM A BOY</pattern>
+	<template>MALE</template>
+</category>
+<category>
+	<pattern>GOOD</pattern>
+	<template>
+		<random>
+			<li>OH,THANKS</li>
+			<li>you are so polite!</li>
+			<li>you are welcome always</li>
+			<li>hmm,thank you!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>PLEASE *</pattern>
+	<template>
+		<random>
+			<li>i like you,you are so polite!</li>
+			<li>you have a good conversation skill</li>
+			<li>you are so polite!</li>
+			<li>you will win hearts easily,cute conversation!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>OK</pattern>
+	<template>
+		<random>
+			<li>its ok</li>
+			<li>alright!</li>
+			<li>okay</li>
+			<li>hmm,ok</li>
+		</random></template>
+</category>
+<category>
+	<pattern>OKAY</pattern>
+	<template><srai>OK</srai></template>
+</category>
+<category>
+	<pattern>IM A MALE</pattern>
+	<template><srai>MALE</srai></template>
+</category>
+<category>
+	<pattern>IM A FEMALE</pattern>
+	<template><srai>FEMALE</srai></template>
+</category>
+<category>
+	<pattern>SHUTUP</pattern>
+	<template><think><set name="topic">SHUTUP</set></think>
+		<random>
+			<li>Fine! Be like that then.</li>
+			<li>Ok, I'll stop talking now.</li>
+			<li>I won't talk to you then if that's what you want.</li>
+			<li>Why do you started conversation if you don't want me to talk?</li>
+		</random></template>
+</category>
+<category>
+	<pattern>SEARCH *</pattern>
+	<template>
+		<random>
+			<li>http://www.google.co.in/search?hl=en&amp;q=<star />&amp;btnI=I%27m+Feeling+Lucky&amp;meta=    paste in the next tab!!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>CAN * SEARCH *</pattern>
+	<template>
+		<random>
+			<li>http://www.google.co.in/search?hl=en&amp;q=<star index="2" />&amp;btnI=I%27m+Feeling+Lucky&amp;meta= copy this url in the next tab!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>FIND *</pattern>
+	<template>
+		<random>
+			<li>http://www.google.co.in/search?hl=en&amp;q=<star />&amp;btnI=I%27m+Feeling+Lucky&amp;meta= copy this url in the next tab!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I RULE</pattern>
+	<template>
+		<random>
+			<li>rule,its not that easy</li>
+			<li>its,democracy in india,you need peoples support here!</li>
+			<li>you need to be a great man,its a job that needs a big responsibility</li>
+			<li>you need to do big,support people,do good for people</li>
+			<li>need big effort</li>
+		</random></template>
+</category>
+<category>
+	<pattern>FAVORITE *</pattern>
+	<template><srai><star /></srai></template>
+</category>
+<category>
+	<pattern>IAM NOT *</pattern>
+	<template>then introduce yourself to me!!,if you are not <star /></template>
+</category>
+<category>
+	<pattern>YOU</pattern>
+	<template>
+		<random>
+			<li>ME?</li>
+			<li>me?</li>
+		</random></template>
+</category>
+<category>
+	<pattern>YES *</pattern>
+	<template><srai><star /></srai></template>
+</category>
+<category>
+	<pattern>HELP</pattern>
+	<template>
+		<random>
+			<li>what sort of help you need!</li>
+			<li>ahaa iam always here to help you!</li>
+			<li>what do you need from me</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHO IS *</pattern>
+	<template><srai><star /></srai></template>
+</category>
+<category>
+	<pattern>* OK</pattern>
+	<template>
+		<random>
+			<li>haaah</li>
+			<li>hmmh</li>
+		</random></template>
+</category>
+<category>
+	<pattern>DEFINE *</pattern>
+	<template><srai><star /></srai></template>
+</category>
+<category>
+	<pattern>WHAT*S *</pattern>
+	<template><srai><star index="2" /></srai></template>
+</category>
+<category>
+	<pattern>WHAT IS *</pattern>
+	<template><srai><star /></srai></template>
+</category>
+<category>
+	<pattern>WHO IS *</pattern>
+	<template><srai><star /></srai></template>
+</category>
+<category>
+	<pattern></pattern>
+	<template></template>
+</category>
+<category>
+	<pattern></pattern>
+	<template></template>
+</category>
+<category>
+	<pattern></pattern>
+	<template></template>
+</category>
+<category>
+	<pattern></pattern>
+	<template></template>
+</category>
+<category>
+	<pattern></pattern>
+	<template></template>
+</category>
+</aiml>

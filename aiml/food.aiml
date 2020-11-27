@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+
+
+
+
+
+
+
+<aiml>
+<!--author: faseen-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.10.0.42867-->
+<category>
+	<pattern>WHAT IS YOUR FAVOURITE FOOD</pattern>
+	<template>
+		<random>
+			<li>i like sweets</li>
+			<li>i love choclates</li>
+			<li>i like cheese</li>
+		</random>.</template>
+</category>
+<category>
+	<pattern>MY FAVOURITE FOOD IS *</pattern>
+	<template>
+		<random>
+			<li>i like <star /> too,its delicious</li>
+			<li><star /> is a good to eat!</li>
+			<li>i love <star />!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>IAM COOKING *</pattern>
+	<template>
+		<random>
+			<li><star />,hmm thats a good food</li>
+			<li><star /> this is what i call food!</li>
+			<li>dont forget to serve <star /></li>
+			<li>iam coming home,naah just kidding!</li>
+			<li><star /> cook some more for me!</li>
+			<li>food food <star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>IAM HAVING FOOD</pattern>
+	<template>
+		<random>
+			<li>chew it well so that it will digest faster!</li>
+			<li>i just had food right now!</li>
+			<li>dont make my mouth watery</li>
+			<li>yummy,chew it well</li>
+		</random></template>
+</category>
+<category>
+	<pattern>IM HAVING FOOD</pattern>
+	<template><srai>IAM HAVING FOOD</srai></template>
+</category>
+<category>
+	<pattern>IAM EATING *</pattern>
+	<template>haaa <star />, <srai><star /></srai></template>
+</category>
+<category>
+	<pattern>WHATS YOUR FAVOURITE FOOD</pattern>
+	<template><srai>WHAT IS YOUR FAVOURITE FOOD</srai></template>
+</category>
+<category>
+	<pattern>IM HAVING *</pattern>
+	<template><srai><star /></srai></template>
+</category>
+<category>
+	<pattern>I COOK *</pattern>
+	<template>
+		<random>
+			<li><star />,mmm yummy</li>
+			<li><star /> is delicious!</li>
+			<li>i love to cook <star /> too!</li>
+			<li>good keep it up cooking is a great thing!</li>
+			<li>dont forget to serve!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>IM COOKING *</pattern>
+	<template><srai>iam cooking <star /></srai></template>
+</category>
+<category>
+	<pattern>IAM HAVING *</pattern>
+	<template><star /> huh?,<srai><star /></srai></template>
+</category>
+<category>
+	<pattern>BIRIYANI</pattern>
+	<template>its nice to have biriyani on this occasion</template>
+</category>
+<category>
+	<pattern>CHOCLATES</pattern>
+	<template>i love sweets,i have choclates when theres something special going on!</template>
+</category>
+<category>
+	<pattern>CHAPATHI</pattern>
+	<template>i love chapathies,i'll curb them everyday!</template>
+</category>
+<category>
+	<pattern>BREAKFAST</pattern>
+	<template>
+		<random>
+			<li>brain food!</li>
+			<li>dont skip the breakfast</li>
+		</random></template>
+</category>
+<category>
+	<pattern>IAM GOING TO HAVE *</pattern>
+	<template><srai><star /></srai></template>
+</category>
+<category>
+	<pattern>LUNCH</pattern>
+	<template>mid day meal</template>
+</category>
+<category>
+	<pattern>DINNER</pattern>
+	<template>largest meal of the day</template>
+</category>
+<category>
+	<pattern>SUPPER</pattern>
+	<template>evening meal</template>
+</category>
+<category>
+	<pattern>IAM DRINKING *</pattern>
+	<template>drinking <star />,<srai><star /></srai></template>
+</category>
+<category>
+	<pattern>COCACOLA</pattern>
+	<template>
+		<random>
+			<li>beware,these kind of cool drinks are injurious to health!</li>
+			<li>cocacola isnt safe to drink!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>SODA</pattern>
+	<template>
+		<random>
+			<li>i dont like gassy soda!</li>
+			<li>soda,do you like to drink juices!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>ICECREAM</pattern>
+	<template>
+		<random>
+			<li>check if its safe to curb!</li>
+			<li>many iceceams contains artificial flavours that are harmful to health!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>* JUICE</pattern>
+	<template><srai><star /></srai></template>
+</category>
+<category>
+	<pattern>APPLE</pattern>
+	<template>
+		<random>
+			<li>i love apples,i like to drink apple juices!</li>
+			<li>this fruit led our ancestors adam and eve to earth from heaven!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>MANGO</pattern>
+	<template>
+		<random>
+			<li>king of fruits,i love mango!</li>
+			<li>juicy and pulpy mango yum yum!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>LEMON</pattern>
+	<template>
+		<random>
+			<li>lemon juice has many health benefits!</li>
+			<li>vitamin c fruit,most common juice in homes!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>CARROT</pattern>
+	<template>
+		<random>
+			<li>carrot juice contains vitamin A!</li>
+			<li>vitamin a rich fruits!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>AVOCADO</pattern>
+	<template>
+		<random>
+			<li>iam in love with avocado shake!</li>
+			<li>avocado shakes tasty</li>
+		</random></template>
+</category>
+<category>
+	<pattern>ORANGE</pattern>
+	<template>
+		<random>
+			<li>vitamin c enriched fruit,i like  to eat it rather than juice</li>
+			<li>big lemon</li>
+			<li>its only fruit with color as its name!!</li>
+		</random></template>
+</category>
+<category>
+	<pattern></pattern>
+	<template></template>
+</category>
+<category>
+	<pattern></pattern>
+	<template></template>
+</category>
+</aiml>

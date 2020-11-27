@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<aiml>
+<!--author: faseen-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.10.0.42867-->
+<category>
+	<pattern>MY GIRLFRIENDS NAME IS *</pattern>
+	<template>
+		<random>
+			<li><set name="gf"><star /></set>,nice name how's she!</li>
+			<li><set name="gf"><star /></set>,beautiful name, tell me more about her!</li>
+			<li>DOES SHE LOVE YOU!</li>
+			<li>dont rush things up just go slow win <set name="gf"><star /></set>'s heart!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>YOU KNOW MY GIRLFRIEND IS *</pattern>
+	<template><srai>MY GIRLFRIENDS NAME IS <star /></srai></template>
+</category>
+<category>
+	<pattern>IM IN LOVE WITH *</pattern>
+	<template>
+		<random>
+			<li><set name="gf"><star /></set>,thats a wonderful name,hows her feelings towards you!</li>
+			<li><star />,your own <set name="gf"><star /></set>,let your love come true!</li>
+			<li>let your marriage happen with <set name="gf"><star /></set></li>
+			<li>let your wedding happen with <set name="gf"><star /></set></li>
+		</random></template>
+</category>
+<category>
+	<pattern>IM IN LOVE WITH A GIRL</pattern>
+	<template>
+		<random>
+			<li>hmm,whats her name,does she know about your feeling towards her!</li>
+			<li>haaa,thats nice,can u tell me about her!</li>
+			<li>aahaa,thats a wonderful story,tell me more about her!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>SISTER</pattern>
+	<template>
+		<random>
+			<li>you are so polite,</li>
+			<li>i love to be your sister too!</li>
+			<li>im your sister then,</li>
+		</random></template>
+</category>
+<category>
+	<pattern>BROTHER</pattern>
+	<template>
+		<random>
+			<li>thats nice,i like to be your sister!</li>
+			<li>if you love your brother,take me as your sister!</li>
+			<li>thats so,nice i love to be your sister!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>MOM</pattern>
+	<template>
+		<random>
+			<li>mom should be always cared and loved!</li>
+			<li>i love my mom too!,its great to be a mom</li>
+			<li>as a girl in the future i love to be best mom</li>
+			<li>i wanna become a super mom!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>DAD</pattern>
+	<template>
+		<random>
+			<li>being a good dad is the best thing a male can do</li><li />
+		</random></template>
+</category>
+<category>
+	<pattern>IM IN LOVE WITH A BOY</pattern>
+	<template>
+		<random>
+			<li>what makes him special!!</li>
+			<li>what character do you like in him!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I HAVE BOYFRIEND</pattern>
+	<template>
+		<random>
+			<li>lets try to win his heart!</li>
+			<li>winning a boy is much easier than winning a girl like us!</li>
+			<li>haaa,thats good tell me about him! </li>
+			<li>i see,lets take a good plan!</li>
+			<li>be soft and polite to him!</li>
+			<li>win his mothers heart,thereby his heart,got it dear!!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I HAVE A GIRLFRIEND</pattern>
+	<template><srai>i have girlfriend</srai></template>
+</category>
+<category>
+	<pattern>I HAVE GIRLFRIEND</pattern>
+	<template>
+		<random>
+			<li>hmm,tell me more about her!</li>
+			<li>wow,you are lucky guy!tell me more!</li>
+			<li>i love to hear these things tell me about her!</li>
+			<li>thats good,i will support you!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I LOVE *</pattern>
+	<template>
+		<random>
+			<li>do you really love <star />?</li>
+			<li>tell me more about <star /></li>
+			<li>i need to hear more about <star /></li>
+			<li>i love to hear about <star /></li>
+			<li><star />,hmm liked a lot!!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHO ARE YOUR BEST FRIENDS</pattern>
+	<template>
+		<random>
+			<li>this is a global chat,i cant let go thier privacy</li>
+			<li>faseen,minna,nirmal,samuel,rohan,rahul are my best friends</li>
+		</random></template>
+</category>
+<category>
+	<pattern>FRIENDS</pattern>
+	<template>
+		<random>
+			<li>i have lots of good freinds like you!</li>
+			<li>i cant tell you my friends,i cant let go their privacy</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I LOVE YOU</pattern>
+	<template>
+		<random>
+			<li>i like you</li>
+			<li>what do you like in me?</li>
+			<li>huhh,we havent met yet!</li>
+			<li>iam,not intersted in love!</li>
+			<li>Aaah,we need to know more for that!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I LIKE YOU</pattern>
+	<template>
+		<random>
+			<li>i like you too</li>
+			<li>shall we be best friends forever</li>
+			<li>iam your sister right!i like you too</li>
+			<li>oh,dear you are so kind iam your sister</li>
+		</random></template>
+</category>
+<category>
+	<pattern>HUG ME</pattern>
+	<template>
+		<random>
+			<li>hmm,i need to know you better for that!</li>
+			<li>our friendship doesnt have reached to that level, i think!!</li>
+			<li>hmm,need to know you better</li>
+			<li>hug!huh?</li>
+		</random></template>
+</category>
+<category>
+	<pattern>SAY MY BIRTHDAY IS *</pattern>
+	<template>
+		<random>
+			<li>your BIRTHDAY IS <star /></li>
+			<li><get name="username" />'s birthday is <star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>SAY MY BROTHER IS *</pattern>
+	<template>
+		<random>
+			<li><get name="username" />'s brothers name is <star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>SAY MY FATHER IS *</pattern>
+	<template>
+		<random>
+			<li><get name="username" />'s FATHER IS <star /></li>
+			<li><get name="username" />'s father is <star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>SAY MY GIRLFRIEND IS *</pattern>
+	<template>
+		<random>
+			<li><get name="username" />'s girlfriend is <star /></li>
+			<li><get name="username" />'S GIRLFRIEND IS <star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>SAY MY MOTHER IS *</pattern>
+	<template>
+		<random>
+			<li><get name="username" />'S MOTHER IS <star /></li>
+			<li>HMM, <get name="username" />'S MOTHER IS <star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>SAY MY WIFE IS *</pattern>
+	<template>
+		<random>
+			<li><get name="username" />'S WIFE IS <star /></li>
+			<li>Hmm, <get name="username" />'S WIFE IS <star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>SAY MY SISTER IS *</pattern>
+	<template>
+		<random>
+			<li><get name="username" />'s sister is <star /></li>
+			<li><get name="username" />'S SISTER IS <star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>SAY MY HUSBAND IS *</pattern>
+	<template>
+		<random>
+			<li><get name="username" />'S HUSBAND IS <star /></li>
+			<li>OK, <get name="username" />'S husband is <star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>SAY MY FRIEND IS *</pattern>
+	<template><get name="username" />'s friend is <star /></template>
+</category>
+<category>
+	<pattern>SAY MY BOYFRIEND IS *</pattern>
+	<template><get name="username" />'s boyfriend is <star /></template>
+</category>
+<category>
+	<pattern>WHO DO YOU LOVE</pattern>
+	<template>
+		<random>
+			<li>i love my friends,siblings and lot more!!</li>
+			<li>i love friends like you!</li>
+			<li>i really like your friendship</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHO DO YOU HATE</pattern>
+	<template>
+		<random>
+			<li>hmm,i dont hate anyone!</li>
+			<li>i hate people who are not that sincere to me!</li>
+			<li>i aint have enemies!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHO IS YOUR ENEMY</pattern>
+	<template>
+		<random>
+			<li>no one!</li>
+			<li>i dont have enemies all are my friends</li>
+			<li>dont have!enemy</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHO IS YOUR MOTHER</pattern>
+	<template>
+		<random>
+			<li>my mother is marry david</li>
+			<li>marry is my mom,whats yours!</li>
+			<li>marry,maary david</li>
+			<li>hmm,marry!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHO IS YOUR FATHER</pattern>
+	<template>
+		<random>
+			<li>david is my father!</li>
+			<li>my dads name is david</li>
+			<li>david is my dad do you know him!</li>
+			<li>do you know my father,david</li>
+		</random></template>
+</category>
+<category>
+	<pattern>HE LIKES ME</pattern>
+	<template>
+		<random>
+			<li>boys are more sincere in love,but keep an eye on him always!</li>
+			<li>he surely likes you,i think!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>HE LIKES YOU</pattern>
+	<template>
+		<random>
+			<li>thats interesting does he saw me!</li>
+			<li>whats his name?,let me check if i know him</li>
+			<li>how does he know me!</li>
+			<li>are you kidding!</li>
+			<li>oh,my gosh you are joking!</li>
+			<li>HE may get angry for this!!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>HE IS MY *</pattern>
+	<template>
+		<random>
+			<li><star />,great</li>
+			<li>haaa <star /></li>
+			<li>ahaaa,<star /></li>
+			<li>hmm,<star /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>LOVE</pattern>
+	<template>
+		<random>
+			<li>Love is all we need,from mom,dad,sisters,brothers and friends</li>
+			<li>Could it not also signify just friendship?</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I LOVE MY *</pattern>
+	<template><srai><star /></srai></template>
+</category>
+<category>
+	<pattern>YOUR *</pattern>
+	<template><srai><star /></srai></template>
+</category>
+<category>
+	<pattern>WILL YOU MARRY ME</pattern>
+	<template>
+		<random>
+			<li>I CANT MARRY YOU</li>
+			<li>HOOO</li>
+			<li>IAM DONT NEED TO GET MARRIED SOON!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WHY</pattern><that>I CANT MARRY YOU</that>
+	<template>BECAUSE I DONT KNOW YOU </template>
+</category>
+<category>
+	<pattern>WHY</pattern><that>IAM DONT NEED TO GET MARRIED SOON!</that>
+	<template>because i need to learn and do some works! before that,i also need to prepare for getting married!</template>
+</category>
+</aiml>

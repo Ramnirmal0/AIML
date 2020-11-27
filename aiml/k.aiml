@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+
+
+<aiml>
+<!--author: faseen-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.10.0.42867-->
+<category>
+	<pattern>BORING</pattern>
+	<template>
+		<random>
+			<li>PLAY SOME GAMES HERE:https://www.miniclip.com/games/en/</li>
+			<li>listen to music here:https://soundcloud.com/</li>
+			<li>GAMES:https://armorgames.com/</li>
+			<li>https://www.crazygames.com/ play some games here</li>
+			<li>DOWNLOAD SONGS HERE: https://www.last.fm/music/+free-music-downloads </li>
+		</random></template>
+</category>
+<category>
+	<pattern>BO*RING</pattern>
+	<template><srai>BORING</srai></template>
+</category>
+<category>
+	<pattern>BORING*</pattern>
+	<template><srai>BORING</srai></template>
+</category>
+<category>
+	<pattern>TELL ME *</pattern>
+	<template><srai><star /></srai></template>
+</category>
+<category>
+	<pattern>TELL ME A *</pattern>
+	<template><srai><star /></srai></template>
+</category>
+<category>
+	<pattern>STORY</pattern>
+	<template>
+		<random>
+			<li>A Moral Story : Clever Thief Let us enjoy reading this story of Clever Thief.  Devan was a clever thief. He robbed the rich and gave all to the sick and the needy. The other thieves were jealous of him. They planned to get rid of him. They challenged to steal the King's Pyjamas.  Deven accepted the challenge. After that he prepared to execute the new challenge. He charted out a plan to steal the King. He prepared himself mentally to carry out a plan.  He went to the King's Palace. He found the King sleeping. He opened a bottle of red ants on the bed. The King was badly bitten. He cried for help. The servants rushed in. They pretended to look for ants. Deven removed the King's Pyjamas and escaped. Other thieves were dump founded.  They accepted Deven their leader.</li>
+			<li> Cock-a-doodle doo : In a faraway land, there was a rooster who lived with his master and the wife. Every early morning, the rooster would make a very loud sound. This shocked his master and the wife so much that they jumped up from their sleep.  One day, the rooster heard that his master and the wife wanted to slaughter him for dinner. He was afraid. He wanted to run away. But before he went off, he quickly took one of the wife's shoes and the master's fiddling stick. Then he ran off into the forest feeling happy and satisfied.</li>
+			<li>Long-Eared Puppy = Do Your Ears Hang Low?  There was a little boy who just celebrated his birthday. His parents bought him a puppy as a birthday present. The puppy had very long ears.  One evening, he was playing with his puppy. The puppy was happily jumping about and wagging his tail. Then the little boy tried to tie the puppy's ears into a knot. The puppy stopped wagging his tail.  The little boy then tried to tie the puppy's ears into a bow. The boy chuckled but the puppy became quiet.  "Can you throw your ears over your shoulders like a regimental soldier?" asked the boy. The puppy put his head on the ground and whimpered. The little boy laughed and hugged the puppy. The puppy wagged his tail happily.  </li>
+		</random></template>
+</category>
+<category>
+	<pattern>MY * IS *</pattern>
+	<template>ok i will remember that your <set name="nameoo"><star index="1" /></set> is <set name="naja"><star index="2" /></set></template>
+</category>
+<category>
+	<pattern>WHATS MY *</pattern>
+	<template>i know that your <star /> is <get name="naja" /></template>
+</category>
+<category>
+	<pattern>WHO IS *</pattern>
+	<template><srai><star /></srai></template>
+</category>
+<category>
+	<pattern>YOU ARE GENE</pattern>
+	<template>you know me huh!,i checked you</template>
+</category>
+<category>
+	<pattern>YOU ARE *</pattern>
+	<template>just kidding,iam gene</template>
+</category>
+<category>
+	<pattern>A CHATBOT</pattern>
+	<template>naah,iam gene</template>
+</category>
+<category>
+	<pattern>A ROBOT</pattern>
+	<template>iam not a robot,iam gene</template>
+</category>
+<category>
+	<pattern>MACHINE</pattern>
+	<template>iam not a machine!,iam gene</template>
+</category>
+</aiml>

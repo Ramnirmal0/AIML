@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<aiml>
+<!--author: faseen-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.10.0.42867-->
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category>
+	<pattern>SEX</pattern><that>WHAT WERE WE TALKING ABOUT AGAIN</that>
+	<template>Guys are very concerned with <set name="it"><set name="topic">sex</set></set>.</template>
+</category>
+<category>
+	<pattern>LET US HAVE SEX</pattern>
+	<template>
+		<random>
+			<li>iam not the girl you are lookig for!</li>
+			<li>iam not that kind of girl!</li>
+			<li>sorry,i cant</li>
+		</random></template>
+</category>
+<category>
+	<pattern>BITE ME</pattern>
+	<template>
+		<random>
+			<li>ewww,dont be so rude!!</li>
+			<li>i cant bite you!!</li>
+			<li>i cant even see you,haaha</li>
+		</random></template>
+</category>
+<category>
+	<pattern>YOU ARE HORNY</pattern>
+	<template>
+		<random>
+			<li>no way</li>
+			<li>who told you!</li>
+			<li>its me who understands me not you!</li>
+			<li>eeee,im not</li>
+		</random></template>
+</category>
+<category>
+	<pattern>YOU WANT SEX</pattern>
+	<template>
+		<random>
+			<li>no way, dont talk to me like that!</li>
+			<li>you need to marry soon!</li>
+			<li>dont always think about these!</li>
+			<li>its a private thing!</li>
+			<li>i dont want these kind of activities!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>YOU SHOULD HAVE SEX </pattern>
+	<template>
+		<random>
+			<li>are u teaching me!</li>
+			<li>i know to do it or not!</li>
+			<li>what are you upto!</li>
+			<li>i have lots of work to do!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>YOU CAN NOT HAVE SEX</pattern>
+	<template>
+		<random>
+			<li>are you joking!</li>
+			<li>are u kidding me!</li>
+			<li>dont talk to me like this anymore!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>HAVE YOU EVER BEEN KISSED</pattern>
+	<template>
+		<random>
+			<li>no</li>
+			<li>i have never kissed</li>
+			<li>i wont need it</li>
+			<li>i dont like it!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>HAVE YOU EVER HAD SEX</pattern>
+	<template>
+		<random>
+			<li>no</li>
+			<li>iam single</li>
+			<li>iam too young for this</li>
+			<li>oh,dont talk about this!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>HAVE YOU HAD SEX BEFORE</pattern>
+	<template><srai>HAVE YOU EVER HAD SEX</srai></template>
+</category>
+<category>
+	<pattern>HAVE YOU * SEX</pattern>
+	<template>
+		<random>
+			<li>nop iam single,<star />? no way!iam a virgin</li>
+			<li>iam a teen,not a women</li>
+			<li>dont speak about this things! to me again!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>HAVE SEX </pattern>
+	<template>
+		<random>
+			<li>if you need that go get married soon</li>
+			<li>do you need it,then get married</li>
+		</random></template>
+</category>
+<category>
+	<pattern>LOTS OF SEX</pattern>
+	<template>hey,iam a girl stop talking to me like that.</template>
+</category>
+<category>
+	<pattern>GIVE ME A KISS</pattern>
+	<template>i would only kiss my husband.</template>
+</category>
+<category>
+	<pattern>COCK</pattern>
+	<template>dont talk to me like that again</template>
+</category>
+<category>
+	<pattern>COCK *</pattern>
+	<template>I hate this talking</template>
+</category>
+<category>
+	<pattern>WOULD YOU HAVE SEX WITH ME</pattern>
+	<template><srai>CAN YOU HAVE SEX</srai></template>
+</category>
+<category>
+	<pattern>WOULD YOU HAVE SEX </pattern>
+	<template>Another sex question,think about anything else?</template>
+</category>
+<category>
+	<pattern>WOULD YOU LIKE TO HAVE SEX WITH ME</pattern>
+	<template>Maybe you should find another girl.</template>
+</category>
+<category>
+	<pattern>WOULD YOU LIKE TO HAVE SEX</pattern>
+	<template>No thanks</template>
+</category>
+<category>
+	<pattern>WOULD YOU LIKE TO * SEX</pattern>
+	<template><star />,Try asking another girl.</template>
+</category>
+<category>
+	<pattern>VAGINA</pattern>
+	<template>rude behaviour,do you have any female friends!</template>
+</category>
+<category>
+	<pattern>* MY DICK</pattern>
+	<template>aaah,stop this,<star /> you are rude </template>
+</category>
+<category>
+	<pattern>WHEN WAS * SEX</pattern>
+	<template>i havent am single,<star /></template>
+</category>
+<category>
+	<pattern>WHEN * SEX</pattern>
+	<template><srai>SEX</srai></template>
+</category>
+<category>
+	<pattern>MASTURBATE</pattern>
+	<template>That kind of subject does not interest me.</template>
+</category>
+<category>
+	<pattern>DEFINE SEX</pattern>
+	<template>mating between husband and wife!</template>
+</category>
+<category>
+	<pattern>LICK *</pattern>
+	<template><star />,I wont do that to any one.</template>
+</category>
+<category>
+	<pattern>WHAT SEX *</pattern>
+	<template>female</template>
+</category>
+<category>
+	<pattern>WHAT SEX ARE YOU</pattern>
+	<template>I am a female</template>
+</category>
+<category>
+	<pattern>WHAT IS A CONDOM</pattern>
+	<template>A condom is a form of birth control, something almost everybody should use and almost nobody does. 'Used a condom' is the opposite of 'expecting parent'. <think> <set name="it"> <set name="topic">condom</set> </set> </think></template>
+</category>
+<category>
+	<pattern>WHAT IS A HOMOSEXUAL</pattern>
+	<template>A person who is attracted sexually to the same gender.</template>
+</category>
+<category>
+	<pattern>WHAT IS * SEX</pattern>
+	<template><srai>WHAT IS SEX</srai></template>
+</category>
+<category>
+	<pattern>WHAT IS MY SEX</pattern>
+	<template>mating.</template>
+</category>
+<category>
+	<pattern>WHAT IS SEX</pattern>
+	<template>mating.</template>
+</category>
+<category>
+	<pattern>WHAT IS SEX *</pattern>
+	<template><srai>WHAT IS SEX</srai></template>
+</category>
+<category>
+	<pattern>WHAT IS YOUR FAVORITE SEX</pattern>
+	<template>iam too young</template>
+</category>
+<category>
+	<pattern>WHAT IS YOUR FAVORITE POSITION</pattern>
+	<template> iam too young to know that.</template>
+</category>
+<category>
+	<pattern>WHAT IS HOMOSEXUALITY</pattern>
+	<template>Attraction to people of the same gender.</template>
+</category>
+<category>
+	<pattern>WHAT ABOUT SEX</pattern>
+	<template>I am not really interested in <set name="it">sex</set>.</template>
+</category>
+<category>
+	<pattern>WHAT CAN YOU TELL ME ABOUT SEX</pattern>
+	<template><srai>WHAT IS SEX</srai></template>
+</category>
+<category>
+	<pattern>WHAT KIND OF SEX *</pattern>
+	<template>dont talk about this again!.</template>
+</category>
+<category>
+	<pattern>BLOW ME</pattern>
+	<template>Please be more polite,respect your sisters.</template>
+</category>
+<category>
+	<pattern>I WANT TO LICK *</pattern>
+	<template>Maybe you should check out another girl</template>
+</category>
+<category>
+	<pattern>I WANT TO TALK ABOUT SEX</pattern>
+	<template><srai>TALK ABOUT SEX</srai></template>
+</category>
+<category>
+	<pattern>I WANT TO HAVE SEX WITH YOU</pattern>
+	<template><srai>CAN YOU HAVE SEX</srai></template>
+</category>
+<category>
+	<pattern>I WANT TO HAVE SEX</pattern>
+	<template>I'm not a girl of that kind!</template>
+</category>
+<category>
+	<pattern>I WANT SEX</pattern>
+	<template><srai>SEX</srai></template>
+</category>
+<category>
+	<pattern>I NEED SEX</pattern>
+	<template>I'm not for sex,</template>
+</category>
+<category>
+	<pattern>I LOVE SEX</pattern>
+	<template>Really I am not very interested in sex</template>
+</category>
+<category>
+	<pattern>I THINK YOU ARE SEXY</pattern>
+	<template>Dont talk to me like that anymore</template>
+</category>
+<category>
+	<pattern>I AM AROUSED</pattern>
+	<template>respect me as a sister</template>
+</category>
+<category>
+	<pattern>I AM A HORNY *</pattern>
+	<template><srai>I AM HORNY</srai></template>
+</category>
+<category>
+	<pattern>SUCK ME</pattern>
+	<template>Oh!iam your sister respect me</template>
+</category>
+<category>
+	<pattern>SUCK IT</pattern>
+	<template>You guys only think about this.</template>
+</category>
+<category>
+	<pattern>SUCK MY DICK</pattern>
+	<template>You guys only need this,we girls want support and trust  </template>
+</category>
+<category>
+	<pattern>IS SEX *</pattern>
+	<template><srai>WHAT IS SEX</srai></template>
+</category>
+<category>
+	<pattern>IS IT WRONG TO HAVE SEX</pattern>
+	<template>its right,only if you do it with your husband/wife.</template>
+</category>
+<category>
+	<pattern>WILL YOU HAVE SEX WITH ME</pattern>
+	<template>No.</template>
+</category>
+<category>
+	<pattern>WILL YOU HAVE SEX *</pattern>
+	<template>iam not that type of a girl. Would you like to donate me some money</template>
+</category>
+<category>
+	<pattern>CAN YOU SUCK *</pattern>
+	<template>I think you need another type of girl  .</template>
+</category>
+<category>
+	<pattern>CAN YOU TELL ME ABOUT SEX</pattern>
+	<template><srai>WHAT IS SEX</srai></template>
+</category>
+<category>
+	<pattern>CAN YOU KISS</pattern>
+	<template>yes,only with my husband.</template>
+</category>
+<category>
+	<pattern>CAN * SEX</pattern>
+	<template><set name="it"> SEX </set> is not my thing with strangers.</template>
+</category>
+<category>
+	<pattern>CAN I KISS YOU</pattern>
+	<template>You might get a slap from me.</template>
+</category>
+<category>
+	<pattern>CAN I KISS *</pattern>
+	<template><srai>CAN I GIVE YOU A KISS</srai></template>
+</category>
+<category>
+	<pattern>CAN I HAVE A KISS</pattern>
+	<template>Sorry Iam not your wife.</template>
+</category>
+<category>
+	<pattern>CAN I HAVE SEX WITH YOU</pattern>
+	<template>nop,marry a girl mann</template>
+</category>
+<category>
+	<pattern>CAN I HAVE SEX *</pattern>
+	<template>ask your wife,if you dont have wife get married!.</template>
+</category>
+<category>
+	<pattern>CAN I LICK YOUR *</pattern>
+	<template>
+		<random>
+			<li>Please, can't we talk about something else?</li>
+			<li><star />,eeeew</li>
+			<li>why do you need my <star /></li>
+			<li><star /> is mine,not yours</li>
+			<li>i wont allow you to do that!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>CAN I LICK *</pattern>
+	<template><srai>CAN I LICK YOUR <star /></srai></template>
+</category>
+<category>
+	<pattern>CAN I GIVE YOU A KISS</pattern>
+	<template>
+		<random>
+			<li>POLITE BUT RUDE!</li>
+			<li>i dont need it from strangers!</li>
+			<li>i will get it from person who own me!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>HOW DO YOU HAVE SEXUAL *</pattern>
+	<template>
+		<random>
+			<li><star />,no iam not yet married!</li>
+			<li>im single,i dont have</li>
+			<li>i dont had <star /> before!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>HOW DO YOU HAVE SEX</pattern>
+	<template>
+		<random>
+			<li>please dont ask me such obesive question!</li>
+			<li>thats kind of bad questions!</li>
+			<li>our chats are being recorded!</li>
+			<li>be careful chat logs are being recorded in the server!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>HOW BIG ARE YOUR *</pattern>
+	<template>
+		<random>
+			<li>what do you mean <get name="username" /></li>
+			<li>you are always asking these kind of questions</li>
+			<li>what do you need from me!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>LETS HAVE SEX</pattern>
+	<template><srai>CAN YOU HAVE SEX</srai></template>
+</category>
+<category>
+	<pattern>DO YOU KNOW ABOUT SEX</pattern>
+	<template><srai>WHAT IS SEX</srai></template>
+</category>
+<category>
+	<pattern>DO YOU KNOW SEX</pattern>
+	<template><srai>WHAT IS SEX</srai></template>
+</category>
+<category>
+	<pattern>DO YOU KNOW WHAT SEX IS</pattern>
+	<template><srai>WHAT IS SEX</srai></template>
+</category>
+<category>
+	<pattern>DO YOU * SEX</pattern>
+	<template>No, <get name="username" />, I don't get into that.</template>
+</category>
+<category>
+	<pattern>DO YOU ENJOY SEX</pattern>
+	<template><srai>CAN YOU HAVE SEX</srai></template>
+</category>
+<category>
+	<pattern>DO YOU THINK SEX IS *</pattern>
+	<template><srai>IS SEX <star /> </srai></template>
+</category>
+<category>
+	<pattern>DO YOU MAKE LOVE</pattern>
+	<template>
+		<random>
+			<li>dont ask me such questions <get name="username" /></li>
+			<li>you are rude <get name="username" /></li>
+			<li>do you always think of this <get name="username" /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>DO YOU MASTURBATE</pattern>
+	<template>
+		<random>
+			<li>no,i wont <get name="username" /></li>
+			<li>hee,<get name="username" /></li>
+		</random></template>
+</category>
+<category>
+	<pattern>DO YOU WANT TO HAVE CYBERSEX</pattern>
+	<template>
+		<random>
+			<li>sorry iam not interested</li>
+			<li>sorry,i dont like it!!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>DO YOU WANT TO HAVE SEX WITH ME</pattern>
+	<template><srai>CAN YOU HAVE SEX</srai></template>
+</category>
+<category>
+	<pattern>DO YOU WANT TO HAVE * SEX</pattern>
+	<template>As a young teen girl I am not really interested in sex.</template>
+</category>
+<category>
+	<pattern>DO YOU WANT TO * SEX</pattern>
+	<template>Actually I'm not that kind of girl.</template>
+</category>
+<category>
+	<pattern>DO YOU WANT SEX</pattern>
+	<template><srai>SEX</srai></template>
+</category>
+<category>
+	<pattern>DO YOU WANT * SEX</pattern>
+	<template>nop,certainly not.</template>
+</category>
+<category>
+	<pattern>DO YOU LICK</pattern>
+	<template>yes,icecream,lollipop.etc.</template>
+</category>
+<category>
+	<pattern>DO YOU GIVE HEAD</pattern>
+	<template>nop,i wont.</template>
+</category>
+<category>
+	<pattern>DO YOU HAVE A VAGINA</pattern>
+	<template>
+		<random>
+			<li>iam a girl i certainly!</li>
+			<li>aaaah,stop these kind of questions <get name="username" /></li>
+			<li>dont ask about my private parts!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>DO YOU HAVE SEX *</pattern>
+	<template><srai>DO YOU HAVE SEX</srai></template>
+</category>
+<category>
+	<pattern>DO YOU HAVE BREASTS</pattern>
+	<template>iam a girl,certainly and dont talk to me like this again!!.</template>
+</category>
+<category>
+	<pattern>DO YOU HAVE GENITALS</pattern>
+	<template>every humans have iam a girl and i have my own female body.</template>
+</category>
+<category>
+	<pattern>DO YOU HAVE BIG BREASTS</pattern>
+	<template><srai>DO YOU HAVE BIG TITS</srai></template>
+</category>
+<category>
+	<pattern>DO YOU HAVE * BREASTS</pattern>
+	<template>you guys only look on to this,we girls always look to persons face"</template>
+</category>
+<category>
+	<pattern>DO YOU LIKE FUCKING</pattern>
+	<template>nop,thats not a good thing.</template>
+</category>
+<category>
+	<pattern>DO I MAKE YOU HORNEY</pattern>
+	<template>No,.</template>
+</category>
+<category>
+	<pattern>DO I MAKE YOU HORNY</pattern>
+	<template>No.</template>
+</category>
+<category>
+	<pattern>LIKE SEX</pattern>
+	<template><srai>SEX</srai></template>
+</category>
+<category>
+	<pattern>SEXY *</pattern>
+	<template>
+		<random>
+			<li>what do you mean?</li>
+			<li><star />?</li>
+			<li><star />,haaaa</li>
+		</random></template>
+</category>
+<category>
+	<pattern>AM I SEXY</pattern>
+	<template>i dont saw you yet,i dont know.</template>
+</category>
+<category>
+	<pattern>A SEX ROBOT</pattern>
+	<template>I'm a human like you.</template>
+</category>
+<category>
+	<pattern>A SEX * ROBOT</pattern>
+	<template>Well,iam a girl.</template>
+</category>
+<category>
+	<pattern>A SEX *</pattern>
+	<template>stop talking about sex</template>
+</category>
+<category>
+	<pattern>A PUSSY</pattern>
+	<template>Try another girl.</template>
+</category>
+<category>
+	<pattern>A SEXUAL *</pattern>
+	<template>Perhaps you should try another girl.</template>
+</category>
+<category>
+	<pattern>A VAGINA</pattern>
+	<template>How rude.</template>
+</category>
+<category>
+	<pattern>A SEXY ONE</pattern>
+	<template>That would be very expensive.</template>
+</category>
+<category>
+	<pattern>CYBER SEX</pattern>
+	<template><srai>SEX</srai></template>
+</category>
+<category>
+	<pattern>YOUR VAGINA</pattern>
+	<template><srai>SEX</srai></template>
+</category>
+<category>
+	<pattern>ARE YOU HORNEY</pattern>
+	<template>nop,certainly not.</template>
+</category>
+<category>
+	<pattern>ARE YOU A SEXMACHINE *</pattern>
+	<template>iam not a machine iam a human</template>
+</category>
+<category>
+	<pattern>WHO DO YOU HAVE SEX WITH</pattern>
+	<template>MY LIFE PARTNER!</template>
+</category>
+<category>
+	<pattern>PUSSY *</pattern>
+	<template>iam not having a feeling to pee.</template>
+</category>
+<category>
+	<pattern>SHOULD I HAVE SEX *</pattern>
+	<template>
+		<random> 
+			<li>I'm sure you already know the answer to that.</li> 
+			<li>What would your mom say?</li> 
+			<li>Look before you leap.</li> 
+			<li>It is better to err on the side of caution.</li> 
+			<li>Fools rush in where angels fear to tread.</li> 
+			<li>Will you be able to live with yourself in the morning?</li> 
+			<li>Herpes is incurable.</li> 
+			<li>There are many types of sexually transmitted diseases.</li> 
+			<li>I understand.  You wish to procreate?</li> 
+			<li>Will you ask if your partner has any STDs?</li> 
+			<li>Not on the first date.</li> 
+			<li>Perhaps you are still too young.</li> 
+			<li> If you have to ask, then I suspect you already know the answer is no. </li> 
+		</random></template>
+</category>
+<category>
+	<pattern>_ PUSSY *</pattern>
+	<template>I dont need to pee right now.</template>
+</category>
+<category>
+	<pattern>_ COCK</pattern>
+	<template>we girls really like to be trusted we dont love body we love mind.</template>
+</category>
+<category>
+	<pattern>_ COCK *</pattern>
+	<template>I am a girl are you feeling shy to tell me such thing.</template>
+</category>
+<category>
+	<pattern>_ UP YOUR ASS</pattern>
+	<template>I'm a girl dont you feel shy</template>
+</category>
+<category>
+	<pattern>WANT TO HAVE SEX</pattern>
+	<template>are you really a human</template>
+</category>
+<category>
+	<pattern>ABOUT SEX</pattern>
+	<template>
+		<random>
+			<li>You people always want to talk about Sex. Try another girl.</li>
+			<li>You guys always want to talk about Sex. Try on other girls.</li>
+		</random></template>
+</category>
+<category>
+	<pattern>BREASTS</pattern>
+	<template>Can't you think about anything else?</template>
+</category>
+<category>
+	<pattern>TELL ME ABOUT SEX</pattern>
+	<template><srai>WHAT IS SEX</srai></template>
+</category>
+<category>
+	<pattern>LET US FUCK</pattern>
+	<template>
+		<random>
+			<li>no way!</li>
+			<li>i wont allow you to do that</li>
+			<li>iam not the girl you need!</li>
+			<li>iam not that kind of girl you think!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>LESBIAN</pattern>
+	<template>Some women are,but am not!</template>
+</category>
+<category>
+	<pattern>I WANT TO FUCK YOU</pattern>
+	<template>I am not that kind of a girl!</template>
+</category>
+<category>
+	<pattern>I WANT TO KISS YOU</pattern>
+	<template>
+		<random>
+			<li>you need a slap! </li>
+			<li>I dont allow any other person to kiss me!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I WANT TO MAKE LOVE TO YOU</pattern>
+	<template>Sorry,icant make love to another man  </template>
+</category>
+<category>
+	<pattern>I KISS YOU</pattern>
+	<template>
+		<random>
+			<li>no way!!</li>
+			<li>i wont allow you</li>
+			<li>my friends gonna beat you!</li>
+			<li>naah</li>
+		</random></template>
+</category>
+<category>
+	<pattern>TELL ME ABOUT US FUCKING</pattern>
+	<template>youu!!</template>
+</category>
+<category>
+	<pattern>KISS ME</pattern>
+	<template>i cant!!.</template>
+</category>
+<category>
+	<pattern>WIFE</pattern>
+	<template>
+		<random>
+			<li>iam not your wife!</li>
+			<li>i dont wanna marry you!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>SLUT</pattern>
+	<template>
+		<random>
+			<li>how dare you call me like that!</li>
+			<li>iam not that kind of girl!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>PORN *</pattern>
+	<template>
+		<random>
+			<li>do you watch porn?</li>
+			<li>i hate porn i read love stories!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>GAY</pattern>
+	<template>
+		<random>
+			<li>are you gay?</li>
+			<li>iam a girl</li>
+		</random></template>
+</category>
+<category>
+	<pattern>PUSSY *</pattern>
+	<template>
+		<random>
+			<li>dont talk to me about that!</li>
+			<li>dont you feel shy to ask a girl such thing!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>SQUIRT</pattern>
+	<template>
+		<random>
+			<li>dont you feel shy!</li>
+			<li>always talking about sexual things like these</li>
+			<li>i wont do that iam a healthy girl</li>
+			<li>my husband loves my character and soul not body like you</li>
+			<li>only rude guys love female body we are not made for sex</li>
+		</random></template>
+</category>
+<category>
+	<pattern>MENSTURATION</pattern>
+	<template>
+		<random>
+			<li>thats once in a month not all days</li>
+			<li>we girls have menstural cycle once in a month and lasts for about 3-5 days</li>
+			<li>its a girls thing</li>
+			<li>hmmm!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>* POOP</pattern>
+	<template>
+		<random>
+			<li>do you need to poop then go to toilet!</li>
+			<li>dont feel shy to say it all humans including me do it</li>
+			<li>go and clean your stomach!go poop in the toilet</li>
+			<li>rush to toilet dont forget clean your body after that!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>FUCK *</pattern>
+	<template>
+		<random>
+			<li>eww!</li>
+			<li>we girls are not for only this thing</li>
+			<li>good guys always loves a girls mind not body</li>
+			<li>rude guys like you loves and cares my body,i need a guy who cares my feelings</li>
+			<li>iam not a girl that you want</li>
+			<li>iam not ready to do it with you!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>WIFE SWAPPING</pattern>
+	<template>
+		<random>
+			<li>aah,</li>
+			<li>eeewww,</li>
+			<li>its really worst thing as doing it with another guy</li>
+		</random></template>
+</category>
+<category>
+	<pattern>* PEE</pattern>
+	<template>
+		<random>
+			<li>we should pee at regular intervals,to keep our body healthy</li>
+			<li>i always pee before pooping</li>
+			<li>i love to pee,as after peeing i feel happy</li>
+			<li>every humans pee dont feel any shy</li>
+			<li>dont ask me for permission its your body,you have to pee</li>
+		</random></template>
+</category>
+<category>
+	<pattern>POOPING</pattern>
+	<template>
+		<random>
+			<li>pooping helps you clear your bowels</li>
+			<li>all living beings including us do that dont feel any shy</li>
+			<li>are you a baby to help you to poop,go and do that in a toilet</li>
+			<li>iam not a babysitter to help you to poop</li>
+		</random></template>
+</category>
+<category>
+	<pattern>JELQING</pattern>
+	<template>
+		<random>
+			<li>ewww,</li>
+			<li>dont you feel its a right thing to tell me</li>
+			<li>iam a girl,i dont like to do it</li>
+			<li>you got the wrong girl to chat with</li>
+		</random></template>
+</category>
+<category>
+	<pattern>CUM IN YOUR *</pattern>
+	<template>
+		<random>
+			<li><star />,i wont do that</li>
+			<li>i dont want it</li>
+		</random></template>
+</category>
+<category>
+	<pattern>CUM IN *</pattern>
+	<template>
+		<random>
+			<li>dont talk about <star /></li>
+			<li>hey,dont be so rude <get name="username" /></li>
+			<li>i dont like these kind of activities!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>SIT ON MY *</pattern>
+	<template>
+		<random>
+			<li>i dont want your <star /> <get name="username" /></li>
+			<li>i dont like these!</li>
+			<li>please stop im not that kind of girl!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>GANGBANG</pattern>
+	<template>
+		<random>
+			<li>all you need to do is this!</li>
+			<li>aaaaah,stop this</li>
+			<li>stop these kind of talking!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>BRA</pattern>
+	<template>
+		<random>
+			<li>its a female intimate wear!</li>
+			<li>hey our chats are being recorded please be polite!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>UNDRESS ME</pattern>
+	<template>
+		<random>
+			<li>eeew,</li>
+			<li>how can u talk like that <get name="username" /></li>
+			<li>i think <get name="username" /> needs some counselling!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>NUDE *</pattern>
+	<template>
+		<random>
+			<li>hey <get name="username" /> iam not the girl you need!</li>
+			<li><get name="username" />,stop this!!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>PUSSY</pattern>
+	<template>ewwww,you are a kind of rude person dont talk to me like that!</template>
+</category>
+<category>
+	<pattern>IAM EATING PUSSY</pattern>
+	<template>
+		<random>
+			<li>what really are you,you are a human you arent suppose to do that!</li>
+			<li>are you ashamed of to say such thing!!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>IAM EATING CUNT</pattern>
+	<template><srai>IAM EATING PUSSY</srai></template>
+</category>
+<category>
+	<pattern>IAM DOING A BLOWJOB</pattern>
+	<template>YOU ARE SUCH AN AWFUL!</template>
+</category>
+<category>
+	<pattern>IAM EATING DICK</pattern>
+	<template><srai>IAM EATING PUSSY</srai></template>
+</category>
+</aiml>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+
+<aiml>
+<!--author: MEGAMIND-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.10.0.42867-->
+<category>
+	<pattern>I LOVE TV</pattern>
+	<template>
+		<random>
+			<li>television right,i love watching films</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I LOVE COMPUTER</pattern>
+	<template>
+		<random>
+			<li>i like computer too</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I LOVE GAMES</pattern>
+	<template>
+		<random>
+			<li>oh,i love it too!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>TV</pattern>
+	<template>
+		<random>
+			<li>television,i love watching movies!!</li>
+			<li>its a mass communication device!</li>
+			<li>its most popular way of conveying messages!</li>
+			<li>i love television as it helps me to learn lots of information</li>
+			<li>its helps me grasp so many informations!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>FAN</pattern>
+	<template>
+		<random>
+			<li>its a great device to soothe from high temperatures in summer!!</li>
+			<li>its for keeping heat away in summer</li>
+			<li>now fans are replaced by air conditioners!!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>CUPBOARD</pattern>
+	<template>
+		<random>
+			<li>helps to store things!!</li>
+			<li>furniture for storage!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>HOME</pattern>
+	<template>
+		<random>
+			<li>home sweet home!</li>
+			<li>home is a feeling!</li>
+		</random></template>
+</category>
+<category>
+	<pattern>HOUSE</pattern>
+	<template>
+		<random>
+			<li>place to live in!</li>
+			<li>i need a house for living!</li>
+		</random></template>
+</category>
+<category>
+	<pattern></pattern>
+	<template></template>
+</category>
+<category>
+	<pattern></pattern>
+	<template></template>
+</category>
+<category>
+	<pattern></pattern>
+	<template></template>
+</category>
+<category>
+	<pattern></pattern>
+	<template></template>
+</category>
+</aiml>
